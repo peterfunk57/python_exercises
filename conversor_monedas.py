@@ -38,7 +38,7 @@ elif opcion == 3:
     dolares = str(dolares)
     print("Tienes $ " + dolares + " dolares")
 else:
-    print("Elige una opcion valida Menzo")
+    print("Elige una opcion valida")
 
 #cantidad_dolares = input("Teclea la cantidad de dollares ")
 #cantidad_dolares = float(cantidad_dolares)
