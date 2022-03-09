@@ -39,13 +39,4 @@ elif opcion == 3:
     print("Tienes $ " + dolares + " dolares")
 else:
     print("Elige una opcion valida")
-
-#cantidad_dolares = input("Teclea la cantidad de dollares ")
-#cantidad_dolares = float(cantidad_dolares)
-#cantidad_pesos = cantidad_dolares * valor_dolar
-#cantidad_pesos = round(cantidad_pesos, 2)
-#cantidad_pesos = str(cantidad_pesos)
-#print("Tienes $" + cantidad_pesos +  " pesos")
-
-
-
+    
