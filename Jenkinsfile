@@ -6,7 +6,7 @@ pipeline {
                 stage('SonarQube analisys') {
                 steps {
                 withSonarQubeEnv('SonarQube') {
-                sh "/var/jenkins_home/tools/sonar-scanner//bin/sonar-scanner"
+                sh "/var/lib/jenkins/tools/sonar-scanner/bin/sonar-scanner"
                                 }
                         }
                 }
