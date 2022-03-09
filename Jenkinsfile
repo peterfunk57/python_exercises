@@ -11,11 +11,18 @@ pipeline {
                         }
                 }
 
-                stage('Deploy') {
+                stage('Deploy hello world') {
                         steps{
                              sh "python3 helloWorld.py"
 
                                         }
                                 }
+                stage('Deploy Hours2Sec'){
+                        steps{
+                                sh 'python3 hours2sec.py'
+                        }
+                }
+                
+
                         }
                 }
